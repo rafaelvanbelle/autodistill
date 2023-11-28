@@ -63,7 +63,7 @@ class DetectionBaseModel(BaseModel):
             data_yaml_path=output_folder + "/data.yaml",
         )
 
-        split_data(output_folder)
+        #split_data(output_folder)
 
         if human_in_the_loop:
             roboflow.login()
